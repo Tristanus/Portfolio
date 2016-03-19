@@ -4,6 +4,7 @@
 
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
@@ -25,7 +26,7 @@
                     <li><a href="about.php">About</a></li>
                     <li><a href="contact.php">Contact</a></li>
                     <li class="icon">
-                        <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+                        <a href="javascript:void(0);" onclick="myFunction()">≡</a>
                     </li>
                 </ul>
             </div>
@@ -43,21 +44,21 @@
 
         <div class="supporting">
             <div class="container">
-                <div class="content">
+                <div class="content_design">
                     <img src="img/design.svg">
                     <h2>Design</h2>
                     <p>I don't only program my websites. I also design my websites myself.</p>
                     <a class="btn-content" href="projects.php">Learn more</a>
                 </div>
 
-                <div class="content">
+                <div class="content_develop">
                     <img src="img/develop.svg">
                     <h2>Develop</h2>
                     <p>I use modern tools and languages to transform a design into a website.</p>
                     <a class="btn-content" href="projects.php">Learn more</a>
                 </div>
 
-                <div class="content">
+                <div class="content_manage">
                     <img src="img/manage.svg">
                     <h2>Manage</h2>
                     <p>I also deliver a service to get your website online and manage the website afterwards.</p>

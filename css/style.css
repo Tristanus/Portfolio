@@ -85,6 +85,13 @@ li a:hover {
     }
 }
 
+.hamburger{
+    width: 5%;
+    height: 5%;
+    float: right;
+    margin-top: -13%;
+}
+
 /* banner */
 
 .banner{
@@ -147,7 +154,7 @@ li a:hover {
 
 /* content */
 
-.content{
+.content_design, .content_develop, .content_manage{
     float: left;
     width: 33%;
     font-family: 'Raleway', sans-serif;
@@ -155,10 +162,19 @@ li a:hover {
     display: none;
 }
 
+@media screen and (max-width: 600px) {
+    .content_design, .content_develop, .content_manage {
+        float: none;
+        margin-right:0;
+        width:auto;
+        margin-bottom: 50px;
+    }
+}
+
 .supporting {
    padding-top: 80px;
    padding-bottom: 100px;
-   margin-bottom: 250px;
+   margin-bottom: 15%;
 }
 
 .supporting img {
@@ -219,9 +235,9 @@ li a:hover {
     font-size: 11px;
 }
 
-@media screen and (max-width:680px) {
-    .footer {
-        padding: 20px 0;
+@media screen and (max-width:600px) {
+    .footer p {
+        margin-left: 10%;
     }
 }
 
